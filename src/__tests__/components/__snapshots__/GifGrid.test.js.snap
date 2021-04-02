@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el componente de GifGrid Cargar el componente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flipInX"
+  >
+    Son Goku
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grind"
+  />
+</Fragment>
+`;
+
+exports[`Prueba en el componente de GifGrid Debe de mostrar un item cuando se cargan las imagnes de useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flipInX"
+  >
+    Son Goku
+  </h3>
+  <div
+    className="card-grind"
+  >
+    <GifGrindItem
+      id="ABC"
+      key="ABC"
+      title="rurouni kenshin GIF"
+      url="https://media0.giphy.com/media/eo8UrZwpvjPHi/giphy.gif?cid=2c52d32dnl4k0lwrknihk88lwxo4qz86ygfv8daxk0em8ndn&rid=giphy.gif"
+    />
+  </div>
+</Fragment>
+`;
